@@ -1,0 +1,122 @@
+Transcript Start Time:  19:34:59, 08 May 2022 E. Africa Standard Time 
+Current Directory: "C:\Users\washi"
+
+Build Time: Nov 29 2021 12:10:23 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v221/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname    Core  O.S.         PID   Vendor                          
+-------------------------------------------------------------------------------
+n0*   WASHINGTON  1/4  Windows-x64  8776  Intel(R) Core(TM) i5-4210U      
+host  WASHINGTON       Windows-x64  6592  Intel(R) Core(TM) i5-4210U      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cortex Process ID: 5632 
+License Server Path: () 
+
+WASHINGTON is already loaded (26.2024).                       Process affinity not being set.
+Reading "C:\Users\washi\Documents\Learning\ANSYS\CFD\naca6513\naca6513_files\dp0\FFF\MECH\FFF.msh"...
+Buffering for file scan...
+
+     899 nodes, binary.
+      84 nodes, binary.
+    1849 2D interior faces, zone  1, binary.
+      84 2D wall faces, zone  5, binary.
+     950 mixed cells, zone  2, binary.
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+     zones,
+	wall-surface_body
+	surface_body
+	interior-surface_body
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Writing Settings file "C:\Users\washi\Documents\Learning\ANSYS\CFD\naca6513\naca6513_files\dp0\FFF\Fluent\FFF.set"...
+	writing rp variables ... Done.
+	writing domain variables ... Done.
+	writing surface_body (type fluid) (mixture) ... Done.
+	writing interior-surface_body (type interior) (mixture) ... Done.
+	writing wall-surface_body (type wall) (mixture) ... Done.
+	writing zones map name-id ... Done.
+"Updating Setup cell..."
+"Updating Solution cell..."
+Initialization based on settings...
+
+Initialize using the hybrid initialization method.
+
+Checking case topology... 
+-This case has no inlets & no outlets 
+-Case will be initialized with constant parameters
+
+Hybrid initialization is done.
+Writing data to C:\\Users\\washi\\Documents\\Learning\\ANSYS\\CFD\\naca6513\\naca6513_files\\dp0\\FFF\\Fluent\\FFF.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+("Unable to update solution. Number of iterations should be greater than zero.")
+
+Error: Unable to update solution. Number of iterations should be greater than zero.
+Error Object: #f
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v221\fluent\fluent22.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Writing to WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\naca6513\naca6513_files\dp0\FFF\Fluent\FFF-Setup-Output.cas.h5" in NODE0 mode and compression level 1 ...
+  Writing mesh ...
+         950 cells,     1 zone  ...
+        1933 faces,     2 zones ...
+         983 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\naca6513\naca6513_files\dp0\FFF\Fluent\FFF-1.cas.h5" in NODE0 mode and compression level 1 ...
+  Writing mesh ...
+         950 cells,     1 zone  ...
+        1933 faces,     2 zones ...
+         983 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\naca6513\naca6513_files\dp0\FFF\Fluent\FFF-1-00000.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.
+
+Performance Timer for 0 iterations on 1 compute node
+  Average wall-clock time per iteration:              0.000 sec
+  Global reductions per iteration:                        0 ops
+  Global reductions time per iteration:               0.000 sec (0.0%)
+  Message count per iteration:                            0 messages
+  Data transfer per iteration:                        0.000 MB
+  LE solves per iteration:                                0 solves
+  LE wall-clock time per iteration:                   0.000 sec (0.0%)
+  LE global solves per iteration:                         0 solves
+  LE global wall-clock time per iteration:            0.000 sec (0.0%)
+  LE global matrix maximum size:                         0
+  AMG cycles per iteration:                           0.000 cycles
+  Relaxation sweeps per iteration:                        0 sweeps
+  Relaxation exchanges per iteration:                     0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                              362
+
+  Total wall-clock time:                              0.000 sec
+
+Transcript Stop Time:  19:35:15, 08 May 2022 E. Africa Standard Time 
+Total Transcript Time: 0 Minute 16 Second.
