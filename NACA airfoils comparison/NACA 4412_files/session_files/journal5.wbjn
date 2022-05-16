@@ -1,0 +1,15 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+system1 = GetSystem(Name="FFF 1")
+meshComponent1 = system1.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+system2 = GetSystem(Name="FFF")
+mesh2 = system2.GetContainer(ComponentName="Mesh")
+mesh2.Edit()
+Save(Overwrite=True)
+setupComponent1 = system2.GetComponent(Name="Setup")
+setupComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)

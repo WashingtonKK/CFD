@@ -1,0 +1,112 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+template1 = GetTemplate(
+    TemplateName="Fluid Flow",
+    Solver="CFX")
+system1 = template1.CreateSystem()
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+system1.DisplayText = "NACA 4212"
+system2.DisplayText = "NACA 4215"
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportAnalysisType = "AnalysisType_2D"
+geometry2 = system1.GetContainer(ComponentName="Geometry")
+geometryProperties2 = geometry2.GetGeometryProperties()
+geometryProperties2.GeometryImportAnalysisType = "AnalysisType_2D"
+system3 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system2)
+system3.DisplayText = "NACA 5318"
+geometry2.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry2.Exit()
+geometry2.Edit()
+geometry2.Exit()
+geometry1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry1.Exit()
+geometry3 = system3.GetContainer(ComponentName="Geometry")
+geometryProperties3 = geometry3.GetGeometryProperties()
+geometryProperties3.GeometryImportAnalysisType = "AnalysisType_2D"
+geometry3.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry3.Exit()
+meshComponent1 = system1.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+mesh1.Exit()
+Refresh()
+mesh1.Edit()
+meshComponent1.Update(AllDependencies=True)
+mesh1.Exit()
+mesh2 = system2.GetContainer(ComponentName="Mesh")
+mesh2.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Edit()
+setup1.Edit()
+mesh2.Exit()
+mesh3 = system3.GetContainer(ComponentName="Mesh")
+mesh3.Edit()
+Save(Overwrite=True)
+setup1.Exit()
+setup1.Edit()
+template2 = GetTemplate(TemplateName="Fluid Flow")
+system4 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system3)
+setupComponent1 = system4.GetComponent(Name="Setup")
+meshComponent1.TransferData(TargetComponent=setupComponent1)
+setupComponent1.Refresh()
+setup2 = system4.GetContainer(ComponentName="Setup")
+fluentLauncherSettings1 = setup2.GetFluentLauncherSettings()
+fluentLauncherSettings1.Precision = "Double"
+meshComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)
+setup1.Exit()
+setupComponent1.Refresh()
+fluentLauncherSettings1.SetEntityProperties(Properties=Set(EnvPath={}, RunParallel=True, NumberOfProcessorsMeshing=4, NumberOfProcessors=4))
+setup2.Edit()
+setup2.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 1)')
+setup2.SendCommand(Command='(%py-exec "preferences.fixState()")')
+setup2.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
+setup2.SendCommand(Command='/file/set-tui-version "22.1"(cx-gui-do cx-activate-item "Key Behavioral Changes*PanelButtons*PushButton1(OK)")')
+setup2.SendCommand(Command='(%py-exec "preferences.General.KeyBehavioralChangesMessage.setState(True)")')
+mesh1.Edit()
+setup2.SendCommand(Command='(cx-use-window-id 51)(dolly-camera 6.59832 0.935836 0)(cx-use-window-id 51)(dolly-camera 1.54973 -4.56031 0)(cx-use-window-id 51)(handle-key "??")(cx-use-window-id 51)(handle-key "??")(cx-use-window-id 51)(handle-key "??")(cx-use-window-id 51)(handle-key "??")')
+setup2.SendCommand(Command='(cx-gui-do cx-activate-item "General*Table1*ButtonBox1(Mesh)*PushButton3(Check)")')
+mesh3.Exit()
+setup2.SendCommand(Command='(cx-gui-do cx-activate-item "MenuBar*FileMenu*Close Fluent")')
+mesh1.Exit()
+system5 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system4)
+geometryComponent1 = system5.GetComponent(Name="Geometry")
+geometryComponent2 = system3.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system5,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system3)
+meshComponent2 = system5.GetComponent(Name="Mesh")
+meshComponent2.Refresh()
+mesh4 = system5.GetContainer(ComponentName="Mesh")
+mesh4.Edit()
+mesh4.Exit()
+Save(Overwrite=True)
