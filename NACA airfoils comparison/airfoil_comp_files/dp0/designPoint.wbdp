@@ -14,7 +14,7 @@
     <Addin Name="Ansys.DesignModeler.Core.Addin" Version="21.2.0.0" />
   </Addins>
   <Containers>
-    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Geometry": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh": Ansys.Meshing.Core.Addin:SimulationModel, "Setup": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSetupContainer, "Solution": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSolutionContainer, "Results": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Geometry 1": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 1": Ansys.Meshing.Core.Addin:SimulationModel, "Setup 1": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSetupContainer, "Solution 1": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSolutionContainer, "Results 1": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Geometry 2": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 2": Ansys.Meshing.Core.Addin:SimulationModel, "Setup 2": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSetupContainer, "Solution 2": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSolutionContainer, "Results 2": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Mesh 3": Ansys.Meshing.Core.Addin:SimulationModel, "Setup 3": Ansys.Fluent.Addin:SetupContainer, "Solution 3": Ansys.Fluent.Addin:SolutionContainer, "Results 3": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Setup 4": Ansys.Fluent.Addin:SetupContainer, "Solution 4": Ansys.Fluent.Addin:SolutionContainer, "Results 4": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Geometry 4": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 4": Ansys.Meshing.Core.Addin:SimulationModel, "Setup 5": Ansys.Fluent.Addin:SetupContainer, "Solution 5": Ansys.Fluent.Addin:SolutionContainer, "Results 5": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer}</container-map>
+    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Geometry": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh": Ansys.Meshing.Core.Addin:SimulationModel, "Setup": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSetupContainer, "Solution": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSolutionContainer, "Results": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Geometry 1": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 1": Ansys.Meshing.Core.Addin:SimulationModel, "Setup 1": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSetupContainer, "Solution 1": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSolutionContainer, "Results 1": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Geometry 2": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh 2": Ansys.Meshing.Core.Addin:SimulationModel, "Setup 2": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSetupContainer, "Solution 2": Ansys.CFX.CFXCore.CFXCoreAddin:CFXSolutionContainer, "Results 2": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Mesh 3": Ansys.Meshing.Core.Addin:SimulationModel, "Setup 3": Ansys.Fluent.Addin:SetupContainer, "Solution 3": Ansys.Fluent.Addin:SolutionContainer, "Results 3": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer, "Setup 4": Ansys.Fluent.Addin:SetupContainer, "Solution 4": Ansys.Fluent.Addin:SolutionContainer, "Results 4": Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer}</container-map>
     <static-container-ids valType="String">{"Scopes": Scopes}</static-container-ids>
     <Container Name="Scopes" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:scopes</container-type>
@@ -36,7 +36,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">9539</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10795, "Input": 9537, "Output": 9537}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10837, "Input": 9537, "Output": 9537}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">CFX</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -64,7 +64,7 @@
       <last-updated valType="Int64">10774</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 10773, "Input": 10763, "Output": 10763}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "Scopes": 0, "Geometry": 9539, "Mesh": 10155, "Setup": 0, "Solution": 0, "Results": 0, "Geometry 1": 10427, "Mesh 1": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Geometry 2": 9771, "Mesh 2": 0, "Setup 2": 0, "Solution 2": 0, "Results 2": 0, "Mesh 3": 0, "Setup 3": 0, "Solution 3": 0, "Results 3": 0, "Setup 4": 0, "Solution 4": 0, "Results 4": 0, "Geometry 4": 10700, "Mesh 4": 0, "Setup 5": 0, "Solution 5": 0, "Results 5": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "Scopes": 0, "Geometry": 9539, "Mesh": 10155, "Setup": 0, "Solution": 0, "Results": 0, "Geometry 1": 10427, "Mesh 1": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Geometry 2": 9771, "Mesh 2": 0, "Setup 2": 0, "Solution 2": 0, "Results 2": 0, "Mesh 3": 0, "Setup 3": 0, "Solution 3": 0, "Results 3": 0, "Setup 4": 0, "Solution 4": 0, "Results 4": 0}</last-update-regen-times>
       <unique-system-dir valType="String">CFX</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Mesh/SimulationConnection:SimulationConnection" Version="1.0">
@@ -294,7 +294,7 @@ See \"Physics Status\" in property view for details.
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">10793</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10797, "Input": 10791, "Output": 10791}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10839, "Input": 10791, "Output": 10791}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">CFX-1</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -322,7 +322,7 @@ See \"Physics Status\" in property view for details.
       <last-updated valType="Int64">0</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 10787, "Input": 9980, "Output": 10788}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{"MechanicalModel": 10789, "MechanicalMesh": 10789}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "Scopes": 0, "Geometry": 9539, "Mesh": 10774, "Setup": 0, "Solution": 0, "Results": 0, "Geometry 1": 10427, "Mesh 1": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Geometry 2": 9771, "Mesh 2": 0, "Setup 2": 0, "Solution 2": 0, "Results 2": 0, "Mesh 3": 0, "Setup 3": 0, "Solution 3": 0, "Results 3": 0, "Setup 4": 0, "Solution 4": 0, "Results 4": 0, "Geometry 4": 10700, "Mesh 4": 0, "Setup 5": 0, "Solution 5": 0, "Results 5": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "Scopes": 0, "Geometry": 9539, "Mesh": 10774, "Setup": 0, "Solution": 0, "Results": 0, "Geometry 1": 10427, "Mesh 1": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Geometry 2": 9771, "Mesh 2": 0, "Setup 2": 0, "Solution 2": 0, "Results 2": 0, "Mesh 3": 0, "Setup 3": 0, "Solution 3": 0, "Results 3": 0, "Setup 4": 0, "Solution 4": 0, "Results 4": 0}</last-update-regen-times>
       <unique-system-dir valType="String">CFX-1</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Mesh 1/SimulationConnection:SimulationConnection" Version="1.0">
@@ -526,7 +526,7 @@ See \"Physics Status\" in property view for details.
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">9771</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10799, "Input": 9769, "Output": 9769}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10841, "Input": 9769, "Output": 9769}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">CFX-2</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -1050,229 +1050,6 @@ See \"Physics Status\" in property view for details.
         <class-type valType="String">SolutionDataLink</class-type>
         <object-name valType="String">SolutionDataProvider</object-name>
         <member-data valType="String">{"DisplayText": "SolutionDataProvider", "Entity": $$9ee39872-078a-4c63-9614-7d1e9201bf00, "DataType": "FluentSolution", "ConnectionKey": "8bbc048c-f952-4ca8-be30-08d199ab2b7b", "RefreshTimestamp": 0, "ID": 1, "SecondID": 2, "DataEntityType": "FluentSolution", "SystemName": "", "LastFilename": {}}</member-data>
-      </Object>
-    </Container>
-    <Container Name="Geometry 4" Version="1.0">
-      <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
-      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
-      <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">10700</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10801, "Input": 10698, "Output": 10698}</last-modified-by-usage>
-      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <unique-system-dir valType="String">FFF-2</unique-system-dir>
-      <contains-significant-data valType="Boolean">true</contains-significant-data>
-      <Object Name="/Geometry 4/SimulationGeneratedMesh:MeshFileObject" Version="1.0">
-        <class-type valType="String">SimulationGeneratedMesh</class-type>
-        <object-name valType="String">MeshFileObject</object-name>
-        <member-data valType="String">{"DisplayText": "MeshFileObject", "TransferFile": None}</member-data>
-      </Object>
-      <Object Name="/Geometry 4/Geometry:GeometryDataObject" Version="1.0">
-        <class-type valType="String">Geometry</class-type>
-        <object-name valType="String">GeometryDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\FFF-2\DM\FFF-2.agdb", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$02c4ceca-389c-4744-b10e-9496dbc8eb7d, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "b26a890e-395d-4485-85e5-a8c0ee7bcc49", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": False, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$02c4ceca-389c-4744-b10e-9496dbc8eb7d": {"FilePathInDM": r"C:\Users\washi\Documents\Learning\ANSYS\CFD\NACA airfoils comparison\airfoil_comp_files\dp0\FFF-2\DM\FFF-2.agdb", "FilePathAfterRepair": r"C:\Users\washi\Documents\Learning\ANSYS\CFD\NACA airfoils comparison\airfoil_comp_files\dp0\FFF-2\DM\FFF-2.agdb", "IsFileRepaired": False, "CadSourceType": "DesignModeler"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
-        <properties-setByUserFlag-data valType="String">["GeometryImportAnalysisType", "ObjectState"]</properties-setByUserFlag-data>
-      </Object>
-      <Object Name="/Geometry 4/TransferData:Geometry" Version="1.0">
-        <class-type valType="String">TransferData</class-type>
-        <object-name valType="String">Geometry</object-name>
-        <member-data valType="String">{"DisplayText": "Geometry", "ConnectionKeys": ["8836552c-4a2a-4397-a109-217c793c3eea"], "Data": $$ad123564-17e1-4dda-b3da-1ba50cca6f0f}</member-data>
-      </Object>
-      <Object Name="/Geometry 4/SpaceClaimCallBackData:SCDataObject" Version="1.0">
-        <class-type valType="String">SpaceClaimCallBackData</class-type>
-        <object-name valType="String">SCDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "b26a890e-395d-4485-85e5-a8c0ee7bcc49"}</member-data>
-      </Object>
-    </Container>
-    <Container Name="Mesh 4" Version="1.0">
-      <container-type valType="String">Ansys.Meshing.Core.Addin:SimulationModel</container-type>
-      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
-      <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10750, "Input": 10750, "Output": 10750}</last-modified-by-usage>
-      <outputs-generated-by-type valType="String">{"MechanicalModel": 10719, "MechanicalMesh": 10719}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "Scopes": 0, "Geometry": 9539, "Mesh": 10155, "Setup": 0, "Solution": 0, "Results": 0, "Geometry 1": 10427, "Mesh 1": 0, "Setup 1": 0, "Solution 1": 0, "Results 1": 0, "Geometry 2": 9771, "Mesh 2": 0, "Setup 2": 0, "Solution 2": 0, "Results 2": 0, "Mesh 3": 0, "Setup 3": 0, "Solution 3": 0, "Results 3": 0, "Setup 4": 0, "Solution 4": 0, "Results 4": 0, "Geometry 4": 10700, "Mesh 4": 0, "Setup 5": 0, "Solution 5": 0, "Results 5": 0}</last-update-regen-times>
-      <unique-system-dir valType="String">FFF-2</unique-system-dir>
-      <contains-significant-data valType="Boolean">true</contains-significant-data>
-      <Object Name="/Mesh 4/SimulationConnection:SimulationConnection" Version="1.0">
-        <class-type valType="String">SimulationConnection</class-type>
-        <object-name valType="String">SimulationConnection</object-name>
-        <member-data valType="String">{"DisplayText": "SimulationConnection", "_IsAssemblyMeshing": None, "_MeshingSolverSetting": None, "Caption": "SimulationConnection", "EventIdToDataReferenceMap": {}, "DSIdToDataReferenceMap": {"13": {"CellModel": $$fbe03148-fd7a-4c3b-acd0-0ff1f7c452a9}, "10": {"CellModel": $$fbe03148-fd7a-4c3b-acd0-0ff1f7c452a9}, "14": {"CellModel": $$fbe03148-fd7a-4c3b-acd0-0ff1f7c452a9}}, "Attributes": {}}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/MechanicalSystemType:SystemType for Fluids|Any|FLUENT" Version="1.0">
-        <class-type valType="String">MechanicalSystemType</class-type>
-        <object-name valType="String">SystemType for Fluids|Any|FLUENT</object-name>
-        <member-data valType="String">{"DisplayText": None, "PhysicsType": "Fluids", "AnalysisType": "Any", "SolverType": "FLUENT", "PhysicsTypeDisplayString": "CFD", "AnalysisTypeDisplayString": "Any", "SolverTypeDisplayString": "FLUENT", "SystemTypeCombination": None, "DelimitedSystemTypeCominbation": None, "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "MechanicalSetup", "SolutionDataEntityType": "MechanicalSolution", "ResultsDataEntityType": "MechanicalResults", "Id": None, "SystemName": "FFF 2", "SystemID": "FFF-2", "ICEngineAutoSetup": False, "ICEngineMeshSettings": "Edit Mesh Settings", "ICEngineMeshPanelValues": None, "RefMeshSize": "0 [mm]"}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/MeshingMesh:MeshingMeshDataObject" Version="1.0">
-        <class-type valType="String">MeshingMesh</class-type>
-        <object-name valType="String">MeshingMeshDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "MeshingMeshDataObject", "Caption": "Mesh", "MeshId": 14}</member-data>
-        <custom-data>
-          <AttentionRequired valType="String">False</AttentionRequired>
-          <ImportedMeshFileType valType="String">0</ImportedMeshFileType>
-          <value-keys valType="String">{"AttentionRequired": System.Boolean, "ImportedMeshFileType": System.Int32}</value-keys>
-          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
-          <transferDataMap>
-            <dictionary-keys valType="String">[FluentMesh]</dictionary-keys>
-            <FluentMesh>
-              <Name valType="String">FluentMesh</Name>
-              <Guid0 valType="String">9db65300-ded4-4e4c-9534-94428320f1ad</Guid0>
-              <UpToDate valType="String">False</UpToDate>
-              <value-keys valType="String">{"Name": System.String, "Guid0": System.String, "UpToDate": System.Boolean}</value-keys>
-            </FluentMesh>
-          </transferDataMap>
-        </custom-data>
-      </Object>
-      <Object Name="/Mesh 4/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider" Version="1.0">
-        <class-type valType="String">MeshingGeneratedMeshOutputProvider</class-type>
-        <object-name valType="String">MeshingGeneratedMeshOutputProvider</object-name>
-        <member-data valType="String">{"DisplayText": "MeshingGeneratedMeshOutputProvider", "DataConnections": [], "TransferDataObject": $$6b8f9120-2334-4b2c-9486-a9782bd6a020, "VersionNumber": 1, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider" Version="1.0">
-        <class-type valType="String">GeneratedMeshOutputForAQWAModelProvider</class-type>
-        <object-name valType="String">GeneratedMeshOutputForAQWAModelProvider</object-name>
-        <member-data valType="String">{"DisplayText": "GeneratedMeshOutputForAQWAModelProvider", "DataConnections": [], "TransferDataObject": $$17469b4b-1a80-478a-bd0a-87ee7dd87f5b, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/OutputsGeneratedManagerDataEntityType:OutputsGeneratedManagerObject" Version="1.0">
-        <class-type valType="String">OutputsGeneratedManagerDataEntityType</class-type>
-        <object-name valType="String">OutputsGeneratedManagerObject</object-name>
-        <member-data valType="String">{"DisplayText": "OutputsGeneratedManagerObject", "outputGeneratedTimes": {}}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/MeshProperties:MeshProperties" Version="1.0">
-        <class-type valType="String">MeshProperties</class-type>
-        <object-name valType="String">MeshProperties</object-name>
-        <member-data valType="String">{"DisplayText": "MeshProperties", "saveMeshFileInSeparateFile": False}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/MeshConversionOptions:MeshConversionOptions" Version="1.0">
-        <class-type valType="String">MeshConversionOptions</class-type>
-        <object-name valType="String">MeshConversionOptions</object-name>
-        <member-data valType="String">{"DisplayText": "MeshConversionOptions", "ToleranceAngle": "45 [degree]", "ForbidCloseComponents": False, "CutAngle": None, "ForceCDBImport": False, "CreateGeometryFaceComponents": True, "CreateGeometryEdgeComponents": True, "CreateGeometryVertexComponents": True, "ComponentKey": "", "GeometryImportAnalysisType": "ThreeDimensional", "BodyGroupingType": "MaterialNumber", "ProcessLineBodies": True, "VertexInsertionAngle": "120 [degree]", "CreateGeometry": True}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/ContainerConnections:ModelContainerConnections" Version="1.0">
-        <class-type valType="String">ContainerConnections</class-type>
-        <object-name valType="String">ModelContainerConnections</object-name>
-        <member-data valType="String">{"DisplayText": "ModelContainerConnections", "Connections": {"Geometry 4": {"$$ad123564-17e1-4dda-b3da-1ba50cca6f0f": {"Geometry": ["8836552c-4a2a-4397-a109-217c793c3eea"]}}}}</member-data>
-      </Object>
-      <Object Name="/Mesh 4/MechanicalModel:MechanicalModel" Version="1.0">
-        <class-type valType="String">MechanicalModel</class-type>
-        <object-name valType="String">MechanicalModel</object-name>
-        <member-data valType="String">{"DisplayText": "MechanicalModel", "Caption": "Model", "File": $$75f22b3a-1be7-4866-abe1-54a9e65f5527, "MeshFile": None, "PrimeMeshFile": None, "EdaFile": None, "SpaceClaimMeshFile": None, "ModelId": 10, "PrototypeId": 13, "ModelHash": "f3169432-0f45-4956-90ac-ba208d2c0e46", "GeometryHash": "f3169432-0f45-4956-90ac-ba208d2c0e46", "IsResetNotRequired": False}</member-data>
-        <custom-data>
-          <File valType="String">75f22b3a-1be7-4866-abe1-54a9e65f5527</File>
-          <FilePath valType="String"></FilePath>
-          <AttentionRequired valType="String">False</AttentionRequired>
-          <ParameterValueModified valType="String">False</ParameterValueModified>
-          <IsModifiedDueToModelAssemblyPropertyChange valType="String">False</IsModifiedDueToModelAssemblyPropertyChange>
-          <IsModifiedDueToMeshConversionPropertyChange valType="String">False</IsModifiedDueToMeshConversionPropertyChange>
-          <AttachType valType="String">0</AttachType>
-          <value-keys valType="String">{"File": System.String, "FilePath": System.String, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean, "IsModifiedDueToModelAssemblyPropertyChange": System.Boolean, "IsModifiedDueToMeshConversionPropertyChange": System.Boolean, "AttachType": System.Int32}</value-keys>
-        </custom-data>
-      </Object>
-    </Container>
-    <Container Name="Setup 5" Version="1.0">
-      <container-type valType="String">Ansys.Fluent.Addin:SetupContainer</container-type>
-      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
-      <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10507, "Input": 10506, "Output": 10506}</last-modified-by-usage>
-      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <unique-system-dir valType="String">FFF-2</unique-system-dir>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
-      <Object Name="/Setup 5/SetupData:SetupData" Version="1.0">
-        <class-type valType="String">SetupData</class-type>
-        <object-name valType="String">SetupData</object-name>
-        <member-data valType="String">{"DisplayText": "SetupData", "UpdateNumber": -1, "UpstreamConnectionObjects": [{"UpstreamObjectReference": $$8561bf18-1ac3-4069-a4e9-dd6f888d8200, "guid": "9db65300-ded4-4e4c-9534-94428320f1ad", "ConnectionType": "FluentMesh", "FileReference": None, "InputEntities": {}}], "InputRefsToBeRemoved": [], "MeshReference": None, "UpstreamMeshReferences": [], "FileType": "Mesh", "_fluentSolution": $$fa8dd838-eaf9-49ac-ae38-2bedf2083922, "SetupInfo": {"MeshInfo": {"CellZoneCount": 0, "FaceZoneCount": 0, "NodeCount": 0, "FaceCount": 0, "CellCount": 0, "PartitionCount": 0, "CellZones": [], "FaceZones": [], "DomainMinX": 0, "DomainMinY": 0, "DomainMinZ": 0, "DomainMaxX": 0, "DomainMaxY": 0, "DomainMaxZ": 0, "MaxCellSquish": 0, "MaxAspectRatio": 0, "GridValid": False, "Unsteady": False}, "ModelInfo": {}, "ModelSummary": {}}, "GenerateSetupOutput": True, "PublishOutputParameters": True, "IsUpstreamMeshModified": False, "aimDictionaryObj": None, "aimSnapshotObj": None, "InputFileName": None, "SetupGeneratedCaseFile": None, "UserData": {"ModelInfoFile": None, "MeshOperations": "", "BoundaryProfileFile": None, "CaseFile": None, "DataFile": None, "OtherInputFiles": {}, "IterationsSpecified": False, "UsingSolutionStrategy": False, "InitializationValid": False, "ModelInfoCompatible": True}, "ConnectionKey": "9db65300-ded4-4e4c-9534-94428320f1ad", "InputEntities": {}, "AnsoftXmlString": "", "StartupSchemeFileRef": None, "AnsoftSelectedData": {}, "MeshEntity": $$8561bf18-1ac3-4069-a4e9-dd6f888d8200, "CortexVarState": ""}</member-data>
-      </Object>
-      <Object Name="/Setup 5/FluentLauncherSettings:RunSettings" Version="1.0">
-        <class-type valType="String">FluentLauncherSettings</class-type>
-        <object-name valType="String">RunSettings</object-name>
-        <member-data valType="String">{"DisplayText": "Fluent Launcher Settings", "UseUpstreamLauncherSettings": True, "Dimension": "Undefined", "Precision": "Single", "Initialization": "ProgramControlled", "InitSolutionDataFile": "", "ShowLauncher": True, "DisplayMesh": True, "EmbedGraphicsWindows": True, "WorkbenchColorScheme": True, "LoadACTStartPage": False, "UseJobScheduler": False, "FluentRootEnv": "$(FLUENT_ROOT)", "UseJournalFile": False, "JournalFile": "", "SetupCompilationEnvironment": True, "UDFPath": r"$(FLUENT_ROOT)\$(ARCH)\udf.bat", "EnvPath": {}, "PrePostOnly": False, "RunParallel": False, "NumberOfProcessorsMeshing": 1, "NumberOfProcessors": 1, "NumberOfGPGPUs": 0, "Interconnect": "default", "MpiType": "default", "UseSharedMemory": True, "MachineSpec": "MachineList", "MachineList": "", "MachineFileName": "", "CachePassword": False, "ConvertUNCPath": False, "ClusterHeadNode": "", "ClusterJobTemplate": "", "ClusterNodeGroup": "", "ClusterProcessorUnit": "Core", "StartWhenResourcesAvailable": False, "CreateJobSubmissionXML": False, "JobSubmissionXmlFile": "", "JobScheduler": "LSF", "UseLSFQueue": False, "LSFQueue": "", "UseLSFCheckpoint": False, "UseCheckpointDirectory": False, "LSFCheckpointDirectory": "", "LSFUseAutomaticCheckpointing": True, "LSFCheckpointPeriod": 60, "SGEQMaster": "localhost", "SGEQueue": "", "SGEPE": "", "SGEUseSettings": False, "SGESettings": "", "SLURMSubmissionHost": "", "SLURMPartition": "", "SLURMAccount": "", "RemoteRunOnLinux": False, "RemoteFluentRootPath": "", "RemoteRshCommand": "SSH", "RemoteUseHost": False, "RemoteHostName": "", "RemoteUseWorkingDirectory": False, "RemoteWorkingDirectory": "", "RemoteRshOtherCommand": ""}</member-data>
-        <properties-setByUserFlag-data valType="String">["ShowLauncher", "DisplayMesh", "EmbedGraphicsWindows", "WorkbenchColorScheme", "SetupCompilationEnvironment", "Precision"]</properties-setByUserFlag-data>
-      </Object>
-      <Object Name="/Setup 5/FluentSetup:SetupDataProvider" Version="1.0">
-        <class-type valType="String">FluentSetup</class-type>
-        <object-name valType="String">SetupDataProvider</object-name>
-        <member-data valType="String">{"DisplayText": "SetupDataProvider", "DataSourceRef": None}</member-data>
-      </Object>
-      <Object Name="/Setup 5/SystemCouplingSetupData:Setup Coupling Data" Version="1.0">
-        <class-type valType="String">SystemCouplingSetupData</class-type>
-        <object-name valType="String">Setup Coupling Data</object-name>
-        <member-data valType="String">{"DisplayText": "Setup Coupling Data", "DataConnections": [], "TransferDataObject": None}</member-data>
-      </Object>
-    </Container>
-    <Container Name="Solution 5" Version="1.0">
-      <container-type valType="String">Ansys.Fluent.Addin:SolutionContainer</container-type>
-      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
-      <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10524, "Input": 10525, "Output": 10517}</last-modified-by-usage>
-      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <unique-system-dir valType="String">FFF-2</unique-system-dir>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
-      <Object Name="/Solution 5/FluentSolutionProperties:SolutionData" Version="1.0">
-        <class-type valType="String">FluentSolutionProperties</class-type>
-        <object-name valType="String">SolutionData</object-name>
-        <member-data valType="String">{"DisplayText": "SolutionData", "UpdateNumber": 0, "UpstreamConnectionObjects": [], "InputRefsToBeRemoved": [], "Setup": $$46e5b282-2ebf-4bb6-b1aa-9c8db266fe2a, "solutionList": {"SolutionPoints": {}, "CurrentPoint": -1, "OldSolutionPoints": []}, "SolutionInfo": {"Residuals": {}, "CurrentIteration": -1, "CurrentFlowTime": -1, "CurrentTimeStep": -1, "UnsteadyFlow": False, "NewSetupInfo": {"MeshInfo": {"CellZoneCount": 0, "FaceZoneCount": 0, "NodeCount": 0, "FaceCount": 0, "CellCount": 0, "PartitionCount": 0, "CellZones": [], "FaceZones": [], "DomainMinX": 0, "DomainMinY": 0, "DomainMinZ": 0, "DomainMaxX": 0, "DomainMaxY": 0, "DomainMaxZ": 0, "MaxCellSquish": 0, "MaxAspectRatio": 0, "GridValid": False, "Unsteady": False}, "ModelInfo": {}, "ModelSummary": {}}, "MeshInfo": {"CellZoneCount": 0, "FaceZoneCount": 0, "NodeCount": 0, "FaceCount": 0, "CellCount": 0, "PartitionCount": 0, "CellZones": [], "FaceZones": [], "DomainMinX": 0, "DomainMinY": 0, "DomainMinZ": 0, "DomainMaxX": 0, "DomainMaxY": 0, "DomainMaxZ": 0, "MaxCellSquish": 0, "MaxAspectRatio": 0, "GridValid": False, "Unsteady": False}, "ModelInfo": {}, "ModelSummary": {}}, "InitialConditionFileReference": None, "StartFromExistingData": True, "RestartDataReference": None, "RestartInfoData": {"Residuals": {}, "CurrentIteration": 0, "CurrentFlowTime": 0, "CurrentTimeStep": 0, "UnsteadyFlow": False, "NewSetupInfo": {"MeshInfo": {"CellZoneCount": 0, "FaceZoneCount": 0, "NodeCount": 0, "FaceCount": 0, "CellCount": 0, "PartitionCount": 0, "CellZones": [], "FaceZones": [], "DomainMinX": 0, "DomainMinY": 0, "DomainMinZ": 0, "DomainMaxX": 0, "DomainMaxY": 0, "DomainMaxZ": 0, "MaxCellSquish": 0, "MaxAspectRatio": 0, "GridValid": False, "Unsteady": False}, "ModelInfo": {}, "ModelSummary": {}}, "MeshInfo": {"CellZoneCount": 0, "FaceZoneCount": 0, "NodeCount": 0, "FaceCount": 0, "CellCount": 0, "PartitionCount": 0, "CellZones": [], "FaceZones": [], "DomainMinX": 0, "DomainMinY": 0, "DomainMinZ": 0, "DomainMaxX": 0, "DomainMaxY": 0, "DomainMaxZ": 0, "MaxCellSquish": 0, "MaxAspectRatio": 0, "GridValid": False, "Unsteady": False}, "ModelInfo": {}, "ModelSummary": {}}, "SolutionTranscript": None, "EnableSolutionMonitoring": True, "residualScaleType": "Residual_Scale_Global", "GeneratePlotImages": False, "EnableDataInterpolation": True, "GeneratePostProcessingImages": True, "UpstreamSourcesRemoved": False, "EnableRunNumber": True, "solutionStatus": "NotStarted", "DataConnections": {"FluentSolution": ["59ca5791-62af-47a9-9dc1-b2ee57a2f41b"]}, "InitialConditionConnectionKey": "00000000-0000-0000-0000-000000000000", "InitialConditionEntity": None, "RunNumber": 0, "ResidualsFileReference": None, "InterpolationDataFileReference": None, "FlprjFileReference": None}</member-data>
-      </Object>
-      <Object Name="/Solution 5/FluentLauncherSettings:RunSettings" Version="1.0">
-        <class-type valType="String">FluentLauncherSettings</class-type>
-        <object-name valType="String">RunSettings</object-name>
-        <member-data valType="String">{"DisplayText": "Fluent Launcher Settings", "UseUpstreamLauncherSettings": True, "Dimension": "Undefined", "Precision": "Single", "Initialization": "ProgramControlled", "InitSolutionDataFile": "", "ShowLauncher": True, "DisplayMesh": True, "EmbedGraphicsWindows": True, "WorkbenchColorScheme": True, "LoadACTStartPage": False, "UseJobScheduler": False, "FluentRootEnv": "$(FLUENT_ROOT)", "UseJournalFile": False, "JournalFile": "", "SetupCompilationEnvironment": True, "UDFPath": r"$(FLUENT_ROOT)\$(ARCH)\udf.bat", "EnvPath": {}, "PrePostOnly": False, "RunParallel": False, "NumberOfProcessorsMeshing": 1, "NumberOfProcessors": 1, "NumberOfGPGPUs": 0, "Interconnect": "default", "MpiType": "default", "UseSharedMemory": True, "MachineSpec": "MachineList", "MachineList": "", "MachineFileName": "", "CachePassword": False, "ConvertUNCPath": False, "ClusterHeadNode": "", "ClusterJobTemplate": "", "ClusterNodeGroup": "", "ClusterProcessorUnit": "Core", "StartWhenResourcesAvailable": False, "CreateJobSubmissionXML": False, "JobSubmissionXmlFile": "", "JobScheduler": "LSF", "UseLSFQueue": False, "LSFQueue": "", "UseLSFCheckpoint": False, "UseCheckpointDirectory": False, "LSFCheckpointDirectory": "", "LSFUseAutomaticCheckpointing": True, "LSFCheckpointPeriod": 60, "SGEQMaster": "localhost", "SGEQueue": "", "SGEPE": "", "SGEUseSettings": False, "SGESettings": "", "SLURMSubmissionHost": "", "SLURMPartition": "", "SLURMAccount": "", "RemoteRunOnLinux": False, "RemoteFluentRootPath": "", "RemoteRshCommand": "SSH", "RemoteUseHost": False, "RemoteHostName": "", "RemoteUseWorkingDirectory": False, "RemoteWorkingDirectory": "", "RemoteRshOtherCommand": ""}</member-data>
-      </Object>
-      <Object Name="/Solution 5/FluentCase:FluentCase" Version="1.0">
-        <class-type valType="String">FluentCase</class-type>
-        <object-name valType="String">FluentCase</object-name>
-        <member-data valType="String">{"DisplayText": "FluentCase"}</member-data>
-      </Object>
-      <Object Name="/Solution 5/FluentSolution:SolutionDataProvider" Version="1.0">
-        <class-type valType="String">FluentSolution</class-type>
-        <object-name valType="String">SolutionDataProvider</object-name>
-        <member-data valType="String">{"DisplayText": "SolutionDataProvider", "DataSourceRef": None}</member-data>
-      </Object>
-      <Object Name="/Solution 5/ComponentSolveSettingsForAddin:ComponentSolveSettingsForAddin" Version="1.0">
-        <class-type valType="String">ComponentSolveSettingsForAddin</class-type>
-        <object-name valType="String">ComponentSolveSettingsForAddin</object-name>
-        <member-data valType="String">{"DisplayText": "ComponentSolveSettingsForAddin", "UpdateOption": "Foreground", "RsmUserString": None, "ConfiguredQueue": {"OptionIcons": None, "OptionLabels": "Local", "Options": "Local", "ReadOnlyOptions": None, "OptionFeatureFlags": None, "OptionFilterFlags": None, "OptionLicenseFlags": None, "Value": "Local"}, "RsmJobName": "Workbench", "EnablePolling": True, "PollingInterval": "120 [s]", "ExecutionMode": "Serial", "NumberOfProcesses": 2}</member-data>
-      </Object>
-      <Object Name="/Solution 5/ExpertProperties:ExpertProperties" Version="1.0">
-        <class-type valType="String">ExpertProperties</class-type>
-        <object-name valType="String">ExpertProperties</object-name>
-        <member-data valType="String">{"DisplayText": "ExpertProperties", "ImportantNote": "These options are visible because a development environment variable is set", "ExpertPropertiesString": "", "EnableDebug": False, "EnableValidation": False, "EnableTesting": False, "EnableErrorReporting": True, "EnableWarningReporting": True, "EnableInfoReporting": False, "EnableFileBasedCommunication": False, "EnableSocketCommunication": False, "EnableFailureCauseReporting": True}</member-data>
-      </Object>
-      <Object Name="/Solution 5/ComponentSettingsForRsmDpUpdate:ComponentSettingsForRsmDpUpdate" Version="1.0">
-        <class-type valType="String">ComponentSettingsForRsmDpUpdate</class-type>
-        <object-name valType="String">ComponentSettingsForRsmDpUpdate</object-name>
-        <member-data valType="String">{"DisplayText": "ComponentSettingsForRsmDpUpdate", "SerialOnly": False, "UseLimitOnNumberOfCores": False, "LimitOnNumberOfCores": 2}</member-data>
-      </Object>
-    </Container>
-    <Container Name="Results 5" Version="1.0">
-      <container-type valType="String">Ansys.CFX.CFDPost.CFDPostAddin:CFDAnalysisContainer</container-type>
-      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
-      <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10542, "Input": 10536, "Output": 10535}</last-modified-by-usage>
-      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <unique-system-dir valType="String">FFF-2</unique-system-dir>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
-      <Object Name="/Results 5/CFDResults:Results 5 Source" Version="1.0">
-        <class-type valType="String">CFDResults</class-type>
-        <object-name valType="String">Results 5 Source</object-name>
-        <member-data valType="String">{"DisplayText": "Results 5 Source", "DataLinks": {"$$691b91d3-76ad-44e8-a502-feb4fe0e97d5": $$395851cd-6d53-43db-b8ec-e86348b2120b}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "ExternalFileMap": {}, "InitCCL": None, "UseInitCCL": False, "PostStateFile": None, "_reportFiles": None, "_htmReportFile": None, "_xmlReportFile": None, "MRESLoadOptionsMsg": "See Solution component properties for multi-configuration options (CFX only).", "ClearState": False, "LoadReport": "None", "CustomReportTemplate": "", "RunSessionScript": False, "UpdateScriptCCL": "", "StateInitializationFile": "", "GenerateReport": False, "ReportName": "Report", "ReportLocationDirectory": "", "LastResultsID": 2}</member-data>
-        <custom-data>
-          <DataSource1 valType="String">Solution 5</DataSource1>
-          <EntityType1 valType="String">FluentSolution</EntityType1>
-          <value-keys valType="String">{"DataSource1": System.String, "EntityType1": System.String}</value-keys>
-        </custom-data>
-      </Object>
-      <Object Name="/Results 5/CFDAnalysis:Results 5 Provider" Version="1.0">
-        <class-type valType="String">CFDAnalysis</class-type>
-        <object-name valType="String">Results 5 Provider</object-name>
-        <member-data valType="String">{"DisplayText": "Results 5 Provider", "DataSourceRef": $$09e410b6-b19c-4dc1-b7a1-a10b2622bb86}</member-data>
-      </Object>
-      <Object Name="/Results 5/SolutionDataLink:SolutionDataProvider" Version="1.0">
-        <class-type valType="String">SolutionDataLink</class-type>
-        <object-name valType="String">SolutionDataProvider</object-name>
-        <member-data valType="String">{"DisplayText": "SolutionDataProvider", "Entity": $$691b91d3-76ad-44e8-a502-feb4fe0e97d5, "DataType": "FluentSolution", "ConnectionKey": "59ca5791-62af-47a9-9dc1-b2ee57a2f41b", "RefreshTimestamp": 0, "ID": 1, "SecondID": 2, "DataEntityType": "FluentSolution", "SystemName": "", "LastFilename": {}}</member-data>
       </Object>
     </Container>
   </Containers>

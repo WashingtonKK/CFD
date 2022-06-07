@@ -1,0 +1,146 @@
+Transcript Start Time:  08:36:55, 07 Jun 2022 E. Africa Standard Time 
+Current Directory: "C:\Users\washi"
+
+Build Time: Nov 29 2021 12:18:53 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v221/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname    Core  O.S.         PID    Vendor                          
+-------------------------------------------------------------------------------
+n1    WASHINGTON  2/4  Windows-x64  14460  Intel(R) Core(TM) i5-4210U      
+n0*   WASHINGTON  1/4  Windows-x64  16004  Intel(R) Core(TM) i5-4210U      
+host  WASHINGTON       Windows-x64  11660  Intel(R) Core(TM) i5-4210U      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cortex Process ID: 9692 
+License Server Path: () 
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v221\fluent\fluent22.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+Multicore SMT processors detected. Processor affinity set!
+Reading setting file in cache: "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\FFF.set"
+
+Reading from WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\FFF-Setup-Output.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       41867 cells,     1 cell zone  ...
+          41867 mixed cells,  zone id: 2
+       84074 faces,     5 face zones ...
+          83377 2D interior faces,  zone id: 1
+             92 2D wall faces,  zone id: 5
+            382 2D velocity-inlet faces,  zone id: 6
+            219 2D pressure-outlet faces,  zone id: 7
+              4 2D wall faces,  zone id: 8
+       42207 nodes,     1 node zone  ...
+  Done.
+
+
+
+Building...
+     mesh
+	distributing mesh
+		parts..,
+		faces..,
+		nodes..,
+		cells..,
+        bandwidth reduction using Reverse Cuthill-McKee: 20858/208 = 100.279
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	wall-surface_body
+	outlet
+	inlet
+	aerofoil-wall
+	interior-surface_body
+	surface_bodySetting surface_body (mixture) ... Done.
+ Setting zone id of surface_body to 2.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of aerofoil-wall to 5.
+ Setting zone id of inlet to 6.
+ Setting zone id of outlet to 7.
+ Setting zone id of wall-surface_body to 8.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting aerofoil-wall (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+Setting wall-surface_body (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Reading from WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\FFF-1-00054.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+  iter  continuity  x-velocity  y-velocity           k       omega    surf-mon        drag        lift      moment        drag    lift-mon     surf-in     time/iter
+    54  8.7939e-06  3.6709e-10  2.0556e-10  2.1972e-07  1.0777e-07 -3.0827e+00  4.2808e-02  3.3153e-02  1.5515e-02  4.2808e-02                          0:00:00  200
+!   54 solution is converged
+Solution for report definition drag has converged
+Solution for report definition lift has converged
+Solution for report definition surf-mon has converged
+!   55 report definition solution is converged
+    55  7.6236e-06  3.1441e-10  1.7902e-10  2.0272e-07  9.9613e-08 -3.0827e+00  4.2808e-02  3.3153e-02  1.5515e-02  4.2808e-02  8.9105e-06  3.0979e-09  0:00:00  199
+!   55 solution is converged
+Registering ReportDefFiles, ("C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\.\\moment-rfile.out" "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\.\\lift-rfile.out" "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\.\\drag-rfile.out" "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\.\\surf-mon-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\washi\\AppData\\Local\\Temp\\flntgz-116602 ...
+Done.
+
+Writing data to C:\\Users\\washi\\Documents\\Learning\\ANSYS\\CFD\\Comparison_2_files\\dp0\\FFF\\Fluent\\FFF.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+
+Writing to WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\FFF-2.cas.h5" in NODE0 mode and compression level 1 ...
+  Writing mesh ...
+       41867 cells,     1 zone  ...
+       84074 faces,     5 zones ...
+       42207 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF\Fluent\FFF-2-00055.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.
+Create new project file for writing: C:\\Users\\washi\\Documents\\Learning\\ANSYS\\CFD\\Comparison_2_files\\dp0\\FFF\\Fluent\\FFF.flprj
+
+Performance Timer for 1 iterations on 2 compute nodes
+  Average wall-clock time per iteration:              0.234 sec
+  Global reductions per iteration:                      118 ops
+  Global reductions time per iteration:               0.000 sec (0.0%)
+  Message count per iteration:                         2066 messages
+  Data transfer per iteration:                        1.456 MB
+  LE solves per iteration:                                3 solves
+  LE wall-clock time per iteration:                   0.132 sec (56.4%)
+  LE global solves per iteration:                         7 solves
+  LE global wall-clock time per iteration:            0.000 sec (0.0%)
+  LE global matrix maximum size:                         7
+  AMG cycles per iteration:                           7.000 cycles
+  Relaxation sweeps per iteration:                      947 sweeps
+  Relaxation exchanges per iteration:                     0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                              361
+
+  Total wall-clock time:                              0.234 sec
+
+Transcript Stop Time:  08:37:34, 07 Jun 2022 E. Africa Standard Time 
+Total Transcript Time: 0 Minute 39 Second.

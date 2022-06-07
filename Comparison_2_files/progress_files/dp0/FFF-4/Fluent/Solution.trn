@@ -1,0 +1,238 @@
+Transcript Start Time:  09:20:37, 07 Jun 2022 E. Africa Standard Time 
+Current Directory: "C:\Users\washi"
+
+Build Time: Nov 29 2021 12:18:53 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v221/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname    Core  O.S.         PID    Vendor                          
+-------------------------------------------------------------------------------
+n1    WASHINGTON  2/4  Windows-x64  12780  Intel(R) Core(TM) i5-4210U      
+n0*   WASHINGTON  1/4  Windows-x64  10508  Intel(R) Core(TM) i5-4210U      
+host  WASHINGTON       Windows-x64  18724  Intel(R) Core(TM) i5-4210U      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cortex Process ID: 18200 
+License Server Path: () 
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v221\fluent\fluent22.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+Multicore SMT processors detected. Processor affinity set!
+Reading setting file in cache: "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\FFF-4.set"
+
+Reading from WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\FFF-4-Setup-Output.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+       38174 cells,     1 cell zone  ...
+          38174 mixed cells,  zone id: 2
+       76658 faces,     5 face zones ...
+          76026 2D interior faces,  zone id: 1
+             60 2D wall faces,  zone id: 5
+            358 2D velocity-inlet faces,  zone id: 6
+            213 2D pressure-outlet faces,  zone id: 7
+              1 2D wall face ,  zone id: 8
+       38484 nodes,     1 node zone  ...
+  Done.
+
+
+
+Building...
+     mesh
+	distributing mesh
+		parts..,
+		faces..,
+		nodes..,
+		cells..,
+        bandwidth reduction using Reverse Cuthill-McKee: 18263/122 = 149.697
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	wall-surface_body
+	outlet
+	inlet
+	aerofoil-wall
+	interior-surface_body
+	surface_bodySetting surface_body (mixture) ... Done.
+ Setting zone id of surface_body to 2.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of aerofoil-wall to 5.
+ Setting zone id of inlet to 6.
+ Setting zone id of outlet to 7.
+ Setting zone id of wall-surface_body to 8.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting aerofoil-wall (mixture) ... Done.
+Setting inlet (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+Setting wall-surface_body (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Reading from WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\FFF-4-1-00200.dat.h5" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+  iter  continuity  x-velocity  y-velocity           k       omega    surf-int        drag        lift      moment        lift        drag  moment-mon    surf-mon     time/iter
+   200  2.4849e-05  4.1867e-10  1.2091e-09  2.6192e-05  4.2907e-07 -2.1688e+00  2.7976e-02  5.8500e-01  2.8266e-01  5.8500e-01  2.7976e-02                          0:00:00  200
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   201  2.4834e-05  4.1899e-10  1.2090e-09  2.6192e-05  3.9032e-07 -2.1688e+00  2.7976e-02  5.8501e-01  2.8266e-01  5.8501e-01  2.7976e-02  4.6995e-06  1.8620e-06  0:00:00  199
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   202  2.4848e-05  3.3544e-10  9.0676e-10  1.8057e-05  2.5011e-07 -2.1688e+00  2.7976e-02  5.8500e-01  2.8266e-01  5.8500e-01  2.7976e-02  2.5296e-06  1.2866e-06  0:03:18  198
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   203  1.6333e-05  2.2714e-10  7.5169e-10  1.4793e-05  2.6099e-07 -2.1688e+00  2.7976e-02  5.8501e-01  2.8266e-01  5.8501e-01  2.7976e-02  3.4982e-06  1.2080e-06  0:03:17  197
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   204  1.6716e-05  2.9931e-10  5.7065e-10  1.4619e-05  2.2618e-07 -2.1688e+00  2.7976e-02  5.8501e-01  2.8266e-01  5.8501e-01  2.7976e-02  7.1166e-07  6.7751e-07  0:02:37  196
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   205  9.7836e-06  2.2530e-10  6.8426e-10  1.3490e-05  2.4812e-07 -2.1688e+00  2.7976e-02  5.8501e-01  2.8266e-01  5.8501e-01  2.7976e-02  4.2055e-06  1.1844e-06  0:02:05  195
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   206  1.8817e-05  4.2741e-10  5.7329e-10  1.3166e-05  2.0862e-07 -2.1688e+00  2.7976e-02  5.8501e-01  2.8266e-01  5.8501e-01  2.7976e-02  1.1334e-08  5.1858e-07  0:02:18  194
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   207  1.2998e-05  3.5296e-10  6.8290e-10  1.2142e-05  2.2902e-07 -2.1687e+00  2.7976e-02  5.8501e-01  2.8266e-01  5.8501e-01  2.7976e-02  4.2256e-06  1.0844e-06  0:01:50  193
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   208  1.9139e-05  5.2978e-10  5.7134e-10  1.1738e-05  1.8821e-07 -2.1687e+00  2.7976e-02  5.8501e-01  2.8266e-01  5.8501e-01  2.7976e-02  3.3605e-07  4.6515e-07  0:02:06  192
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   209  1.4833e-05  4.4538e-10  6.6687e-10  1.0893e-05  2.0441e-07 -2.1687e+00  2.7976e-02  5.8501e-01  2.8267e-01  5.8501e-01  2.7976e-02  4.0688e-06  9.6292e-07  0:01:40  191
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   210  1.8568e-05  5.7784e-10  5.5027e-10  1.0427e-05  1.6621e-07 -2.1687e+00  2.7976e-02  5.8501e-01  2.8267e-01  5.8501e-01  2.7976e-02  4.7729e-07  4.3763e-07  0:01:20  190
+
+  iter  continuity  x-velocity  y-velocity           k       omega    surf-int        drag        lift      moment        lift        drag  moment-mon    surf-mon     time/iter
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   211  1.4542e-05  4.8318e-10  6.2853e-10  9.7351e-06  1.8064e-07 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  3.8267e-06  8.6019e-07  0:01:41  189
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   212  1.7238e-05  5.8483e-10  5.1509e-10  9.5473e-06  1.4533e-07 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  5.1015e-07  4.1040e-07  0:01:21  188
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   213  1.3547e-05  4.8544e-10  5.8433e-10  8.6842e-06  1.6068e-07 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  3.5505e-06  7.7963e-07  0:01:04  187
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   214  1.5804e-05  5.6645e-10  4.7871e-10  8.6551e-06  1.2829e-07 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  4.8492e-07  3.8146e-07  0:01:28  186
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   215  1.2537e-05  4.6500e-10  5.2776e-10  7.4606e-06  1.4275e-07 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  3.1675e-06  6.9074e-07  0:01:10  185
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   216  1.4119e-05  5.2346e-10  4.2292e-10  6.9196e-06  1.0385e-07 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  5.2484e-07  3.2216e-07  0:00:56  184
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   217  1.1219e-05  4.1745e-10  4.1811e-10  4.8109e-06  9.6290e-08 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  2.4210e-06  5.0914e-07  0:01:21  183
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+   218  1.1038e-05  4.3100e-10  2.7229e-10  3.5691e-06  6.1518e-08 -2.1687e+00  2.7976e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7976e-02  1.0313e-06  1.1477e-07  0:01:04  182
+Solution for report definition lift has converged
+Solution for report definition drag has converged
+Solution for report definition moment has converged
+Solution for report definition surf-int has converged
+!  219 report definition solution is converged
+   219  8.5928e-06  3.5715e-10  2.8765e-10  1.8349e-06  5.1034e-08 -2.1687e+00  2.7975e-02  5.8502e-01  2.8267e-01  5.8502e-01  2.7975e-02  1.7231e-06  2.8955e-07  0:01:27  181
+!  219 solution is converged
+Registering ReportDefFiles, ("C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\.\\moment-rfile.out" "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\.\\lift-rfile.out" "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\.\\drag-rfile.out" "C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\.\\surf-int-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\washi\\AppData\\Local\\Temp\\flntgz-187242 ...
+Done.
+
+Writing data to C:\\Users\\washi\\Documents\\Learning\\ANSYS\\CFD\\Comparison_2_files\\dp0\\FFF-4\\Fluent\\FFF-4.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+
+Writing to WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\FFF-4-2.cas.h5" in NODE0 mode and compression level 1 ...
+  Writing mesh ...
+       38174 cells,     1 zone  ...
+       76658 faces,     5 zones ...
+       38484 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to WASHINGTON:"C:\Users\washi\Documents\Learning\ANSYS\CFD\Comparison_2_files\dp0\FFF-4\Fluent\FFF-4-2-00219.dat.h5" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.
+Create new project file for writing: C:\\Users\\washi\\Documents\\Learning\\ANSYS\\CFD\\Comparison_2_files\\dp0\\FFF-4\\Fluent\\FFF-4.flprj
+
+Performance Timer for 19 iterations on 2 compute nodes
+  Average wall-clock time per iteration:              0.244 sec
+  Global reductions per iteration:                      111 ops
+  Global reductions time per iteration:               0.000 sec (0.0%)
+  Message count per iteration:                         1844 messages
+  Data transfer per iteration:                        1.404 MB
+  LE solves per iteration:                                3 solves
+  LE wall-clock time per iteration:                   0.155 sec (63.6%)
+  LE global solves per iteration:                         8 solves
+  LE global wall-clock time per iteration:            0.001 sec (0.3%)
+  LE global matrix maximum size:                        16
+  AMG cycles per iteration:                           8.000 cycles
+  Relaxation sweeps per iteration:                      852 sweeps
+  Relaxation exchanges per iteration:                     0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                              363
+
+  Total wall-clock time:                              4.640 sec
+
+Transcript Stop Time:  09:21:24, 07 Jun 2022 E. Africa Standard Time 
+Total Transcript Time: 0 Minute 47 Second.
