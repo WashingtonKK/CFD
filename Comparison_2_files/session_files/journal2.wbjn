@@ -310,3 +310,4 @@ setup1.SendCommand(Command='(cx-gui-do cx-activate-tab-index "NavigationPane*Fra
 setup1.SendCommand(Command='(%py-exec "preferences.fixState()")')
 setup1.SendCommand(Command="(%py-exec \"preferences.setState({r'Appearance': None,r'GPUApp': None,r'General': None,r'Graphics': None,r'MatProApp': None,r'MeshingWorkflow': None,r'Navigation': None,r'PrjApp': None,r'Simulation': None,r'TurboWorkflow': None,})\")")
 setup1.SendCommand(Command='/file/set-tui-version "22.1"')
+Save(Overwrite=True)

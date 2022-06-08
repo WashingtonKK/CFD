@@ -1,9 +1,6 @@
-# State file created:  2022/06/07 15:59:49
+# State file created:  2022/06/08 01:55:32
 # CFX-22.1
 
-COMMAND FILE:
-  CFX Post Version = 11.0
-END
 COMMENT:User Data
   Comment Exists = True
   Comment Heading = User Data
@@ -41,7 +38,7 @@ CONTOUR:Static Pressure
   Transparency = 0.0
   Use Face Values = Off
   Value List = 0 [Pa],1 [Pa]
-  Visibility = On
+  Visibility = Off
   OBJECT VIEW TRANSFORM:
     Apply Reflection = Off
     Apply Rotation = Off
@@ -60,7 +57,7 @@ CONTOUR:Static Pressure
     Z = 0.0 [m]
   END
 END
-CONTOUR:velocity
+CONTOUR:Velocitys
   Apply Instancing Transform = On
   Clip Contour = Off
   Colour Map = Default Colour Map
@@ -92,7 +89,7 @@ CONTOUR:velocity
   Transparency = 0.0
   Use Face Values = Off
   Value List = 0 [m s^-1],1 [m s^-1]
-  Visibility = Off
+  Visibility = On
   OBJECT VIEW TRANSFORM:
     Apply Reflection = Off
     Apply Rotation = Off
@@ -112,18 +109,18 @@ CONTOUR:velocity
   END
 END
 DATA READER:
-  Active Case Name = Case NACA 2530
+  Active Case Name = Case NACA 6413
   Append Results = False
   Apply X Offset = false
   Apply Y Offset = false
   Apply Z Offset = false
   Clear All Objects = False
   Construct Variables From Fourier Coefficients = True
-  Current Case List = Case NACA 2530
+  Current Case List = Case NACA 6413
   Current Case Name = C:\Users\washi\Documents\Learning\ANSYS\CFD\\
-Comparison_2_files\dp0\FFF\Fluent\FFF.flprj
+Comparison_2_files\dp0\FFF-1\Fluent\FFF-1-2-00072.dat.h5
   Current Results File = C:\Users\washi\Documents\Learning\ANSYS\CFD\\
-Comparison_2_files\dp0\FFF\Fluent\FFF.flprj
+Comparison_2_files\dp0\FFF-1\Fluent\FFF-1-2-00072.dat.h5
   Current Timestep = -1
   Current Timevalue = 0
   Edit Case Names = false
@@ -148,12 +145,12 @@ Comparison_2_files\dp0\FFF\Fluent\FFF.flprj
   Timestep Match Criterion = Same Step
   Timestep Sync Mode = By Time Value
   Timevalue Match Criterion = Same Value
-  CASE:Case NACA 2530
+  CASE:Case NACA 6413
     Construct Variables From Fourier Coefficients = True
     Current Case Name = C:\Users\washi\Documents\Learning\ANSYS\CFD\\
-Comparison_2_files\dp0\FFF\Fluent\FFF.flprj
+Comparison_2_files\dp0\FFF-1\Fluent\FFF-1-2-00072.dat.h5
     Current Results File = C:\Users\washi\Documents\Learning\ANSYS\CFD\\
-Comparison_2_files\dp0\FFF\Fluent\FFF.flprj
+Comparison_2_files\dp0\FFF-1\Fluent\FFF-1-2-00072.dat.h5
     Current Timestep = -1
     Current Timevalue = 0
     File Angle Units = rad
@@ -386,7 +383,7 @@ Comparison_2_files\dp0\FFF\Fluent\FFF.flprj
       Full Circle = Off
       Hub Curve Mode = From Turbo Region
       Inlet Curve Mode = From Turbo Region
-      Inlet Region = /DATA READER/CASE:Case NACA 2530/BOUNDARY:inlet
+      Inlet Region = inlet
       Instance Definition = From File
       Linear Blade Aligned Variable Available = false
       Number of Components in 360 = 1
@@ -395,7 +392,7 @@ Comparison_2_files\dp0\FFF\Fluent\FFF.flprj
       Number of Passages in 360 = 1
       Number of Passages in Component = 1
       Outlet Curve Mode = From Turbo Region
-      Outlet Region = /DATA READER/CASE:Case NACA 2530/BOUNDARY:outlet
+      Outlet Region = outlet
       Principal Axis = Z
       Reflection Plane Option = From Plane
       Rotation Angle = 0 [degree]
@@ -440,7 +437,7 @@ DEFAULT LEGEND:Default Legend View 1
   Legend Aspect = 0.07
   Legend Format = %10.3e
   Legend Orientation = Vertical
-  Legend Plot = /CONTOUR:Static Pressure
+  Legend Plot = /CONTOUR:Velocitys
   Legend Position = 0.02, 0.15
   Legend Resolution = 256
   Legend Shading = Smooth
@@ -463,7 +460,7 @@ DEFAULT LEGEND:Default Legend View 2
   Legend Aspect = 0.07
   Legend Format = %10.3e
   Legend Orientation = Vertical
-  Legend Plot = /CONTOUR:velocity
+  Legend Plot = /CONTOUR:Velocitys
   Legend Position = 0.02, 0.15
   Legend Resolution = 256
   Legend Shading = Smooth
@@ -486,7 +483,7 @@ DEFAULT LEGEND:Default Legend View 3
   Legend Aspect = 0.07
   Legend Format = %10.3e
   Legend Orientation = Vertical
-  Legend Plot = /CONTOUR:velocity
+  Legend Plot = /CONTOUR:Velocitys
   Legend Position = 0.02, 0.15
   Legend Resolution = 256
   Legend Shading = Smooth
@@ -509,7 +506,7 @@ DEFAULT LEGEND:Default Legend View 4
   Legend Aspect = 0.07
   Legend Format = %10.3e
   Legend Orientation = Vertical
-  Legend Plot = /CONTOUR:velocity
+  Legend Plot = /CONTOUR:Velocitys
   Legend Position = 0.02, 0.15
   Legend Resolution = 256
   Legend Shading = Smooth
@@ -534,14 +531,31 @@ FILE PROCESSING:
   Processing Mode = None
   Supress File Replacement Warnings = false
 END
+HARDCOPY:
+  Antialiasing = On
+  Hardcopy Filename = C:/Users/washi/Documents/Learning/ANSYS/CFD/\
+Comparison_2_files/user_files/NACA 6413 Velocity.png
+  Hardcopy Format = png
+  Hardcopy Tolerance = 0.0001
+  Image Height = 600
+  Image Scale = 100
+  Image Width = 600
+  JPEG Image Quality = 80
+  Paper Orientation = Landscape
+  Paper Size = Letter
+  Print Line Width = 1
+  Print Quality = High
+  Use Screen Size = On
+  White Background = Off
+END
 LIBRARY:
   CEL:
     EXPRESSIONS:
-      Accumulated Time Step = 55
+      Accumulated Time Step = 72
       Current Phase Position = 0
-      Current Time Step = 55
+      Current Time Step = 72
       Phase = Current Phase Position
-      Sequence Step = 55
+      Sequence Step = 72
       Time = 0 [s]
       atstep = Accumulated Time Step
       ctstep = Current Time Step
@@ -1373,18 +1387,18 @@ VIEW:View 1
   Highlight Type = Surface Mesh
   Is A Figure = false
   Light Angle = 50, 110
-  Object Visibility List = /CONTOUR:Static Pressure,/DEFAULT LEGEND:Default \
-Legend View 1,/WIREFRAME:Wireframe
+  Object Visibility List = /CONTOUR:Velocitys,/DEFAULT LEGEND:Default Legend \
+View 1,/WIREFRAME:Wireframe
   Projection = Orthographic
   Ruler Visibility = true
   Standard View = Isometric Y
   CAMERA:
     Option = Pivot Point and Quaternion
-    Pan = 0,0
-    Pivot Point = 5.49988,0,-2.23517e-08
+    Pan = 0.0790174,0.065018
+    Pivot Point = 0.496188,0.051934,0.200044
     Rotation = -90, 0, 0
-    Rotation Quaternion = 0,0,0,1
-    Scale = 0.0496509
+    Rotation Quaternion = -6.66134e-16,-2.98023e-08,-1.58325e-08,1
+    Scale = 1.37936
     Send To Viewer = True
   END
 END
