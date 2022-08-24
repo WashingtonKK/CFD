@@ -1,0 +1,12 @@
+echo off
+set LOCALHOST=%COMPUTERNAME%
+set KILL_CMD="C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v221\fluent/ntbin/win64/winkill.exe"
+
+"C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v221\fluent\ntbin\win64\tell.exe" WASHINGTON 55988 CLEANUP_EXITING
+if /i "%LOCALHOST%"=="WASHINGTON" (%KILL_CMD% 18612) 
+if /i "%LOCALHOST%"=="WASHINGTON" (%KILL_CMD% 19668) 
+if /i "%LOCALHOST%"=="WASHINGTON" (%KILL_CMD% 18472) 
+if /i "%LOCALHOST%"=="WASHINGTON" (%KILL_CMD% 19152) 
+if /i "%LOCALHOST%"=="WASHINGTON" (%KILL_CMD% 8892) 
+if /i "%LOCALHOST%"=="WASHINGTON" (%KILL_CMD% 18016)
+del "C:\Users\washi\Documents\Learning\ANSYS\CFD\NACA0012 airfoil\cleanup-fluent-WASHINGTON-8892.bat"

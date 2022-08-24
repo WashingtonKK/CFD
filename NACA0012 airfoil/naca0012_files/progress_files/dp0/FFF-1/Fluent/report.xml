@@ -89,6 +89,7 @@ Boundary Conditions
       inlet           6    velocity-inlet    
       outlet          7    pressure-outlet   
       aerofoil-wall   8    wall              
+      boundary        9    wall              
 
    Setup Conditions
 
@@ -105,6 +106,14 @@ Boundary Conditions
          -----------------
 
       aerofoil-wall
+
+         Condition                  Value             
+         ------------------------------------------
+         Wall Motion                Stationary Wall   
+         Shear Boundary Condition   No Slip           
+         Wall Surface Roughness     0                 
+
+      boundary
 
          Condition                  Value             
          ------------------------------------------
